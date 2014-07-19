@@ -4,7 +4,8 @@ from src.parse_tex import render_math, TEX_MODE
 desc = '''Transforms github with LaTeX as $$ into images'''.strip()
 
 parser = argparse.ArgumentParser(description=desc)
-parser.add_argument('markdown', help='Input Markdown file')
+parser.add_argument('markdown',
+                    help='Input Markdown file [uses README.md as default]')
 args = parser.parse_args()
 
 large_mag = 15000
