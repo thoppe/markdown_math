@@ -18,4 +18,4 @@ python mdmath.py README.md
 
 would be rendered like this:
 
-!["$i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2m}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t)$"](.equations/679878be5dc407e2e3e18e895499f0eaad5c67a50d9ed7dccf1ae48987f3a4bf.png)
+<p align="center" class="mdequation"><img src=".equations/679878be5dc407e2e3e18e895499f0eaad5c67a50d9ed7dccf1ae48987f3a4bf.png" alt="$i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2m}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t)$:/></p>

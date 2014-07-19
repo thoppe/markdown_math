@@ -13,9 +13,8 @@ args = parser.parse_args()
 large_mag = 2500
 
 def markdown_image(line,f_eq):
-    base = '''!["{}"]({})\n'''
-    return base.format(line,f_eq)
-    
+    base = '''<p align="center" class="mdequation"><img src="{src}" alt="{alt}:/></p>'''
+    return base.format(src=f_eq, alt=line)
 
 def render_large(line):
     f_eq = render_math(line,
