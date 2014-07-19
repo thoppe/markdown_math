@@ -1,5 +1,5 @@
 import argparse, sys
-from parse_tex import render_math, TEX_MODE
+from src.parse_tex import render_math, TEX_MODE
 
 desc = '''Transforms github with LaTeX as $$ into images'''.strip()
 
