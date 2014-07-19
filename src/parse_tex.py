@@ -19,7 +19,7 @@ PREAMBLE_MODE = re.compile(r'(?=(?<!\\)\%\%).(.+?)(?<!\\)\%\%',
 _f_tex_template_base = "latex_template.tex"
 
 def render_math(tex,
-                color_rgb = (75,75,75), 
+                color_rgb = (25,25,25), 
                 extra_preamble="", 
                 magnification=10000,
                 verbosity=True,
