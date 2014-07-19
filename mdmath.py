@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import argparse, sys
 from src.parse_tex import render_math, TEX_MODE
 import bs4
